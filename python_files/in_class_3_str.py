@@ -21,8 +21,8 @@ class Stock:
         """method that downloads data and stores in a DataFrame
            uncomment the code below wich should be the final two lines 
            of your method"""
-            # self.calc_returns(data)
-        # return data
+            self.calc_returns(data)
+        return data
         pass
 
     
